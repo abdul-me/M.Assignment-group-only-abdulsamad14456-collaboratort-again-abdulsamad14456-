@@ -1,0 +1,16 @@
+/**
+ * Authentication Page Styles - already in index.php
+ * JavaScript moved to ../js/forms.js — do not put JS here.
+ */
+
+/* Basic password strength bar styles */
+.password-strength-bar {
+  width: 100%;
+  height: 6px;
+  background: #e9ecef;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.password-strength-bar.weak { background: #dc3545; }
+.password-strength-bar.medium { background: #ffc107; }
+.password-strength-bar.strong { background: #28a745; }
